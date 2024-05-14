@@ -1,0 +1,257 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+.navbar {
+  background-color: #3e614d; /* Dark green */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5d8569; /* Light green */
+  color: white;
+  cursor: pointer;
+}
+
+.main-body {
+  margin-top: 20px;
+}
+
+.post {
+  text-align: center;
+}
+
+.post img {
+  max-width: 100%;
+  margin: 0 auto; /* Center the image */
+}
+
+.text-post textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #3e614d; /* Dark green border */
+}
+
+.post-actions {
+  margin-top: 10px;
+}
+
+.post-actions button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5d8569; /* Light green */
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer.css */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5d8569; /* Light gray */
+  padding: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #333; /* Dark gray */
+}
+
+/* Footer.css */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f0f0; /* Light gray */
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Ensure the footer is above other content */
+}
+
+.icon {
+  font-size: 24px;
+  color: #333; /* Dark gray */
+}
+
+
+
+
+
+.post {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.post-content {
+  margin-bottom: 10px;
+}
+
+.vote-buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+
+
+
+
+
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile span {
+  font-weight: bold;
+}
+
+.comment-section {
+  margin-top: 10px;
+}
+
+
+
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 50px; /* To make space for the comment icon */
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile span {
+  font-weight: bold;
+}
+
+.stats {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stats > div {
+  margin-right: 20px;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+}
+
+.comment-icon {
+  background-color: #ff4500; /* Orange color */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.comment-icon i {
+  font-size: 18px;
+}
+
+.comments span {
+  margin-left: 5px;
+}
+
+
+/* comment */
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
